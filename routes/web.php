@@ -27,6 +27,6 @@ Route::get('/บวกเลข/{num1}/{num2}', function ($num1,$num2) {
 
 });
 Route::get('/showdetail/{name}/{num1}/{text1}', function ($name,$num1,$text1) {
-    return "สวัสดี,$name คุณมีอายุ $num1 และคุณจะพูดว่า '$text1'";
+    return "สวัสดี, $name คุณมีอายุ $num1 และคุณจะพูดว่า '$text1'";
 
 });
